@@ -100,7 +100,7 @@ Untuk membuat seeder gunakan artisan berikut pada cmd pada VS Code
 ```
 php artisan make:seeder kategoriTableSeeder
 ```
-Selanjutnya buka file produkTableSeeder yang telah dibuat dan tambahkan script pada method
+Selanjutnya buka file kategoriTableSeeder yang telah dibuat dan tambahkan script pada method
 run() sehingga menjadi seperti berikut:
 ```
 <?php
