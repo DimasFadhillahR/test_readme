@@ -4,8 +4,8 @@
 
 # Modul 1
 
-## 1. Lakukan proses instalasi framework laravel kedalam folder dengan nama masing-masing.
-## 2. Buatlah projek pertama laravel dengan nama projek “penjualan” dan tampilkan dalam browser.
+1. Lakukan proses instalasi framework laravel kedalam folder dengan nama masing-masing.
+2. Buatlah projek pertama laravel dengan nama projek “penjualan” dan tampilkan dalam browser.
 
 ```
 composer create-project laravel/laravel penjualan
@@ -13,10 +13,10 @@ composer create-project laravel/laravel penjualan
 
 
 # Modul 2
-## 1. Buatlah migration tabel kategori dengan menggunakan teknik yang telah di pelajari dalamodul ini.
-## 2. Berikan data dengan menggunakan seeder yang telah anda pelajari pada modul ini.
+1. Buatlah migration tabel kategori dengan menggunakan teknik yang telah di pelajari dalamodul ini.
+2. Berikan data dengan menggunakan seeder yang telah anda pelajari pada modul ini.
 
-## Soal Nomer 1
+Soal Nomer 1
 
 ###### Langkah Pertama
 ```
@@ -60,13 +60,13 @@ return new class extends Migration
 };
 ```
 
-###### Langkah ke 3
+Langkah ke 3
 
 Untuk mengeksekusinya, jalankan perintah berikut
 ```
 php artisan migrate
 ```
-###### Langkah ke 4
+Langkah ke 4
 
 Setelah itu kita melanjutkan untuk membuat model kita harus menjalankan printah artisan dengan script sebagai berikut:
 
@@ -93,7 +93,7 @@ class Kategori extends Model
 
 ## Soal ke 2
 
-###### Langkah ke 1
+Langkah ke 1
 
 Pembuatan Seeder
 Untuk membuat seeder gunakan artisan berikut pada cmd pada VS Code
@@ -140,7 +140,7 @@ class kategoriTableSeeder extends Seeder
     }
 }
 ```
-###### Langkah ke 2
+Langkah ke 2
 
 Buka file bagian data base dan isi code bagian public function run()
 ```
@@ -148,7 +148,7 @@ $this->call(kategoriTableSeeder::class);
 ```
 dengan tujuan untuk memanggil class bagian kategoriTableSeeder untuk berfungsi pada DatabaseSeeder.
 
-###### Langkah ke 3
+Langkah ke 3
 
 Sekarang kita dapat menjalankan perintah atisan pada cmd untuk Menjalankan seeder yang
 telah dibaut dengan perintah sebagai berikut:
