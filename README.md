@@ -151,7 +151,7 @@ dengan tujuan untuk memanggil class bagian kategoriTableSeeder untuk berfungsi p
 Langkah ke 3
 
 Sekarang kita dapat menjalankan perintah atisan pada cmd untuk Menjalankan seeder yang
-telah dibaut dengan perintah sebagai berikut:
+telah dibuat dengan perintah sebagai berikut:
 ```
 php artisan db:seed
 ```
