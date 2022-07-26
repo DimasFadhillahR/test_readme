@@ -91,7 +91,7 @@ class Kategori extends Model
 }
 ```
 
-## Soal ke 2
+Soal ke 2
 
 Langkah ke 1
 
