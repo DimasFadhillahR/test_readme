@@ -155,7 +155,9 @@ telah dibaut dengan perintah sebagai berikut:
 ```
 php artisan db:seed
 ```
-
+Untuk melihat hasil dari seeder yang dibuat bukalah localhost/phpmyadmin pada browser lalu pilih
+database penjualan dan table produks maka hasilnya akan ada 2 data baru yang dihasilkan dari
+pembuatan seeder yang telah kita melakukan seperti pada gambar dibawah.
 
 
 
