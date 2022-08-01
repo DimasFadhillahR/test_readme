@@ -2,7 +2,7 @@
 ###### Kelas : XII RPL1
 ###### No Absen:21
 
-# Modul 1
+## Modul 1
 
 1. Lakukan proses instalasi framework laravel kedalam folder dengan nama masing-masing.
 2. Buatlah projek pertama laravel dengan nama projek “penjualan” dan tampilkan dalam browser.
